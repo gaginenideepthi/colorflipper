@@ -1,0 +1,31 @@
+main{
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    text-align: center;
+}
+.container h2 {
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 65%;
+}
+.color {
+    color: hsl(205, 78%, 60%);
+}
+.btn-hero {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background: transparent;
+    color: #222;
+    display: inline-block;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-hero:hover{
+    color: #fff;
+    background: transparent;
+}
